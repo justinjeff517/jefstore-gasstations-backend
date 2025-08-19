@@ -1,0 +1,18 @@
+[
+  {
+    "dispenser_id": "dispenser_1",
+    "location": "East",
+    "nozzles": [
+      { "id": "nozzle_1", "product": "Diesel" },
+      { "id": "nozzle_2", "product": "Regular" }
+    ]
+  },
+  {
+    "dispenser_id": "dispenser_2",
+    "location": "West",
+    "nozzles": [
+      { "id": "nozzle_1", "product": "Diesel" },
+      { "id": "nozzle_2", "product": "Regular" }
+    ]
+  }
+]

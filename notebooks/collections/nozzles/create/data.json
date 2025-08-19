@@ -1,0 +1,98 @@
+[
+  {
+    "dispenser": "dispenser_1",
+    "nozzle": "nozzle_1",
+    "date": "2025-08-18",
+    "beginning_register": 12000,
+    "ending_register": 12300,
+    "analog_register": 12295,
+    "calibration": 30,
+    "price": 65.00,
+    "po": 120,
+    "cash": 150
+  },
+  {
+    "dispenser": "dispenser_1",
+    "nozzle": "nozzle_1",
+    "date": "2025-08-19",
+    "beginning_register": 12300,
+    "ending_register": 12620,
+    "analog_register": 12615,
+    "calibration": 30,
+    "price": 65.00,
+    "po": 130,
+    "cash": 160
+  },
+  {
+    "dispenser": "dispenser_1",
+    "nozzle": "nozzle_2",
+    "date": "2025-08-18",
+    "beginning_register": 8500,
+    "ending_register": 8760,
+    "analog_register": 8715,
+    "calibration": 30,
+    "price": 62.50,
+    "po": 90,
+    "cash": 140
+  },
+  {
+    "dispenser": "dispenser_1",
+    "nozzle": "nozzle_2",
+    "date": "2025-08-19",
+    "beginning_register": 8720,
+    "ending_register": 9000,
+    "analog_register": 8995,
+    "calibration": 30,
+    "price": 62.50,
+    "po": 100,
+    "cash": 150
+  },
+  {
+    "dispenser": "dispenser_2",
+    "nozzle": "nozzle_1",
+    "date": "2025-08-18",
+    "beginning_register": 15000,
+    "ending_register": 15310,
+    "analog_register": 15395,
+    "calibration": 30,
+    "price": 65.00,
+    "po": 110,
+    "cash": 170
+  },
+  {
+    "dispenser": "dispenser_2",
+    "nozzle": "nozzle_1",
+    "date": "2025-08-19",
+    "beginning_register": 15400,
+    "ending_register": 15700,
+    "analog_register": 15695,
+    "calibration": 30,
+    "price": 65.00,
+    "po": 105,
+    "cash": 165
+  },
+  {
+    "dispenser": "dispenser_2",
+    "nozzle": "nozzle_2",
+    "date": "2025-08-18",
+    "beginning_register": 9200,
+    "ending_register": 9480,
+    "analog_register": 9445,
+    "calibration": 30,
+    "price": 62.50,
+    "po": 95,
+    "cash": 155
+  },
+  {
+    "dispenser": "dispenser_2",
+    "nozzle": "nozzle_2",
+    "date": "2025-08-19",
+    "beginning_register": 9450,
+    "ending_register": 9740,
+    "analog_register": 9735,
+    "calibration": 30,
+    "price": 62.50,
+    "po": 100,
+    "cash": 160
+  }
+]

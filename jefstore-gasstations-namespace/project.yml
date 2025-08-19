@@ -1,0 +1,28 @@
+parameters: {}
+environment:
+  ENV: "production"
+  MONGO_URI: "mongodb+srv://jefstore-gasstations-user:3MnFvf9xgQXHpXSz@kms-cluster.ygdqm.mongodb.net/?retryWrites=true&w=majority&appName=kms-cluster"
+  MONGO_DATABASE: "jefstore-gasstations-database"
+
+
+
+packages:
+
+  - name: test
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: hello
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+
+
