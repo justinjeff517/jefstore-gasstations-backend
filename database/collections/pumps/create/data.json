@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "dispenser_id": 1,
+    "dispenser_name": "dispenser-one",
+    "name": "premium",
+    "location": "sikatuna"
+  },
+  {
+    "id": 2,
+    "dispenser_id": 1,
+    "dispenser_name": "dispenser-one",
+    "name": "regular",
+    "location": "sikatuna"
+  },
+  {
+    "id": 3,
+    "dispenser_id": 2,
+    "dispenser_name": "dispenser-two",
+    "name": "regular",
+    "location": "sikatuna"
+  },
+  {
+    "id": 4,
+    "dispenser_id": 2,
+    "dispenser_name": "dispenser-two",
+    "name": "diesel",
+    "location": "sikatuna"
+  },
+  {
+    "id": 5,
+    "dispenser_id": 3,
+    "dispenser_name": "dispenser-three",
+    "name": "regular",
+    "location": "loboc"
+  },
+  {
+    "id": 6,
+    "dispenser_id": 3,
+    "dispenser_name": "dispenser-three",
+    "name": "diesel",
+    "location": "loboc"
+  },
+  {
+    "id": 7,
+    "dispenser_id": 4,
+    "dispenser_name": "dispenser-four",
+    "name": "regular",
+    "location": "loboc"
+  },
+  {
+    "id": 8,
+    "dispenser_id": 4,
+    "dispenser_name": "dispenser-four",
+    "name": "diesel",
+    "location": "loboc"
+  }
+]

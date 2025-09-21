@@ -1,0 +1,37 @@
+{
+  "date": "string",
+  "location": "string",
+
+  "sales": {
+    "nozzles": [
+      {
+          "dispenser": "string",
+          "nozzle": "string",
+          "date":"string", 
+          "beginning_register": "number",
+          "ending_register": "number",
+          "analog_register": "number",
+          "calibration": "number",
+          "price": "number",
+          "po": "number",
+          "cash": "number"
+      }
+    ]
+  },
+
+  "lubricants": [
+    {
+      "name": "string",
+      "unit": "string",
+      "beginning_inventory": "number",
+      "ending_inventory": "number",
+      "po": "number",
+      "cash": "number",
+      "price": "number"
+    }
+  ],
+
+  "expenses": [
+    { "category": "string", "amount": "number" }
+  ]
+}

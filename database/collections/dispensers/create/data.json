@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "pump-one",
+    "location": "sikatuna"
+  },
+  {
+    "id": 2,
+    "name": "pump-two",
+    "location": "sikatuna"
+  },
+  {
+    "id": 3,
+    "name": "pump-three",
+    "location": "loboc"
+  },
+  {
+    "id": 4,
+    "name": "pump-four",
+    "location": "loboc"
+  }
+]

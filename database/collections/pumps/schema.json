@@ -1,0 +1,7 @@
+{
+    "id":"number",
+    "dispenser_id":"number",
+    "dispenser_name":"string",
+    "name":"string",
+    "location":"string"
+}
