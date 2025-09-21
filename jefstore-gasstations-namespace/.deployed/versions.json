@@ -3,22 +3,30 @@
     "apihost": "https://faas-sgp1-18bc02ac.doserverless.co",
     "namespace": "fn-d2428264-d75d-40c6-9c56-b265528c57f9",
     "packageVersions": {
-      "purchase_orders": {
+      "authentications": {
         "version": "0.0.2",
+        "digest": "15e562b347ded9724a8020a1f4af41190e9cd9cc24a695afd59e9cc9625e0322"
+      },
+      "purchase_orders": {
+        "version": "0.0.5",
         "digest": "5af63db782a97bcfcc87784f9222a093affdffdaf968365ac9ce7baf5de14f31"
       },
       "test": {
-        "version": "0.0.4",
+        "version": "0.0.7",
         "digest": "3cc4c19b4c73f248772989abed4bcaedc98243ec8d6a1fe06ed1700eb2f7e70a"
       }
     },
     "actionVersions": {
-      "purchase_orders/get-one": {
+      "authentications/create": {
         "version": "0.0.2",
+        "digest": "3ce9c9f8bef607b791ee19ded4874c902db24f45f1333ba98ccaa35139446b79"
+      },
+      "purchase_orders/get-one": {
+        "version": "0.0.5",
         "digest": "a7c94e5f63150f1ba234b8fedc1b46ae1c15253e027519dfabd13ede118fbb83"
       },
       "test/hello": {
-        "version": "0.0.4",
+        "version": "0.0.6",
         "digest": "5b4a5126f8cf258eabbe75659c94d9b20dc98c4317d6767f8a5e5d9aa0bf7328"
       }
     }
