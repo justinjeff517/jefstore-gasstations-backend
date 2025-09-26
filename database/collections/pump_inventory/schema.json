@@ -1,0 +1,13 @@
+{
+    "id":"string",
+    "created_at":"date",
+    "date":"date",    
+    "pump_name":"string",
+    "product":"string",
+    "unit":"string",
+    "price":"number",
+    "beginning_inventory":"number",
+    "ending_inventory":"number",
+    "po":"number",
+    "cash":"number"
+}

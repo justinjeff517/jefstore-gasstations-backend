@@ -23,6 +23,39 @@ packages:
         environment: {}
         annotations: {}
         limits: {}
+  - name: pumps
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: get-by-dispenser-name
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+  - name: dispensers
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: get-by-location
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+
   - name: test
     shared: false
     environment: {}
