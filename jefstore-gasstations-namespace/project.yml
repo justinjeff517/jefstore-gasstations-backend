@@ -39,6 +39,26 @@ packages:
         environment: {}
         annotations: {}
         limits: {}
+      - name: get-latest-pump-inventories-by-location 
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+      - name: get-pumps-by-location
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
   - name: dispensers
     shared: false
     environment: {}

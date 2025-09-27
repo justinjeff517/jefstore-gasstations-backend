@@ -1,0 +1,20 @@
+{
+    "id":"string",
+    "created_at":"date",
+    "location":"string",
+    "date":"date",  
+    "dispenser_name":"string",  
+    "pump_id":"string",
+    "pump_name":"string",
+    "product":"string",
+    "unit":"string",
+    "price":"number",
+    "beginning_inventory":"number",
+    "calibration":"number",
+    "po":"number",
+    "cash":"number", 
+    "ending_inventory":"number",
+    "starting_liter_meter":"number",
+    "ending_liter_meter":"number"
+
+}

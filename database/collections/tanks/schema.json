@@ -1,0 +1,7 @@
+{
+    "id":"string",
+    "name":"string",
+    "location":"string",
+    "product":"string",
+    "max_capacity":"number"
+}

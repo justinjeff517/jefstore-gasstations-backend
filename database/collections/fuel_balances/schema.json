@@ -1,0 +1,10 @@
+{
+    "id":"string",
+    "date":"date",
+    "tank_name":"string",
+    "tank_location":"string",
+    "product":"string",
+    "type":"string",
+    "in":"number",
+    "out":"number"
+}
