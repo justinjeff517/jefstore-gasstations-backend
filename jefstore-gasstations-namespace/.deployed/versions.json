@@ -4,53 +4,61 @@
     "namespace": "fn-d2428264-d75d-40c6-9c56-b265528c57f9",
     "packageVersions": {
       "authentications": {
-        "version": "0.0.8",
+        "version": "0.0.11",
         "digest": "15e562b347ded9724a8020a1f4af41190e9cd9cc24a695afd59e9cc9625e0322"
       },
       "dispensers": {
-        "version": "0.0.6",
+        "version": "0.0.9",
         "digest": "65e0ae3b5b4b0fd6644bda6d93e87e259323ecb24046de5f8a105dfd1ac2db94"
       },
       "pumps": {
-        "version": "0.0.4",
+        "version": "0.0.7",
         "digest": "2bc0dd04cc998eaef3913d2c11d900e408aa131a0294d19ce57cf79dbb48ca5b"
       },
+      "pump_inventories": {
+        "version": "0.0.3",
+        "digest": "6c6468a014f2fbff8cc74e91fb2db7ba700a19f7b64806fd52310802335db8b5"
+      },
       "purchase_orders": {
-        "version": "0.0.11",
+        "version": "0.0.14",
         "digest": "5af63db782a97bcfcc87784f9222a093affdffdaf968365ac9ce7baf5de14f31"
       },
       "test": {
-        "version": "0.0.13",
+        "version": "0.0.16",
         "digest": "3cc4c19b4c73f248772989abed4bcaedc98243ec8d6a1fe06ed1700eb2f7e70a"
       }
     },
     "actionVersions": {
       "authentications/create": {
-        "version": "0.0.8",
+        "version": "0.0.11",
         "digest": "3ce9c9f8bef607b791ee19ded4874c902db24f45f1333ba98ccaa35139446b79"
       },
       "dispensers/get-by-location": {
-        "version": "0.0.6",
+        "version": "0.0.9",
         "digest": "f2fb195bfcf4a2223747fb5558ddefa3b193f1d0f99c80ae8ce232b695316b37"
       },
       "pumps/get-by-dispenser-name": {
-        "version": "0.0.4",
+        "version": "0.0.7",
         "digest": "41cac8672422df30f52d4174fc5bb5ebe9cad6641089f2c8c518071f3621d89a"
       },
       "pumps/get-latest-pump-inventories-by-location": {
-        "version": "0.0.1",
+        "version": "0.0.4",
         "digest": "2268a3664b875c13e2a63757db3651a5c65a71241fe99be3a3d6bf3409583cd9"
       },
       "pumps/get-pumps-by-location": {
-        "version": "0.0.3",
+        "version": "0.0.6",
         "digest": "8589d8b7ada2e646f612b86c24bf802f5c717342a86ab27633a1c0a716847fa0"
       },
+      "pump_inventories/get-latest-by-pump-id-and-location": {
+        "version": "0.0.3",
+        "digest": "3f509adfbb040597593dc4a82d8a89ad0582b56d47de44c8934e3352d2d60fcf"
+      },
       "purchase_orders/get-one": {
-        "version": "0.0.11",
+        "version": "0.0.14",
         "digest": "a7c94e5f63150f1ba234b8fedc1b46ae1c15253e027519dfabd13ede118fbb83"
       },
       "test/hello": {
-        "version": "0.0.12",
+        "version": "0.0.15",
         "digest": "5b4a5126f8cf258eabbe75659c94d9b20dc98c4317d6767f8a5e5d9aa0bf7328"
       }
     }
