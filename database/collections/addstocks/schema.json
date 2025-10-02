@@ -1,0 +1,12 @@
+{
+    "id":"string",
+    "date":"mongodb-date",
+    "items":[
+        {
+            "product":"string",
+            "quantity":"number"
+        }
+    ],
+    "creator_employee_number":"string",
+    "created":"string"
+}

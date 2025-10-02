@@ -7,6 +7,22 @@ environment:
 
 
 packages:
+  - name: addstocks
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: get-all
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
   - name: authentications
     shared: false
     environment: {}
