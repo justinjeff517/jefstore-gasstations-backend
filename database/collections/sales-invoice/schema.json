@@ -1,0 +1,11 @@
+{
+    "id":"string",
+    "date":"date", 
+    "customer_name":"string", 
+    "tin":"string",
+    "driver":"string",
+    "product":"string",
+    "quantity":"number",
+    "price":"number",
+    "amount":"number"
+}
