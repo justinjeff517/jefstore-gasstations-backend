@@ -1,0 +1,20 @@
+{
+    "id":"string",
+    "type":"fuel",
+    "tin":"string",
+    "location":"string", 
+    "created":"date", 
+    "date":"date", 
+    "fuel":[
+        {
+            "po_number":"8-digit-string",
+            "plate_number":"string",
+            "route":"string",
+            "driver":"string",
+            "product":"string",
+            "quantity":"number"
+            }
+    ],
+    "cashier_employee_number":"string",
+    "recorder_employee_number":"string"
+}
