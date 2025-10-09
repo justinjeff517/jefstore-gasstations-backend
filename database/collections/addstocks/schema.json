@@ -1,12 +1,18 @@
 {
     "id":"string",
+    "current_form_qr_code":"string",
+    "previous_form_qr_code":"string",
+    "delivery_receipt_number":"string",
+    "supplier":"string", 
     "date":"mongodb-date",
     "items":[
         {
             "product":"string",
-            "quantity":"number"
+            "quantity":"number",
+            "gauge_before_addstock":"number",
+            "gauge_after_addstock":"number"
         }
     ],
-    "creator_employee_number":"string",
-    "created":"string"
+    "cashier_employee_number":"string",
+    "recorder_employee_number":"string"
 }
