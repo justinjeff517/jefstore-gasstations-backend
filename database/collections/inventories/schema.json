@@ -1,0 +1,27 @@
+{
+    "id":"string",
+    "previous_form_qr_code":"string", 
+    "current_form_qr_code":"string", 
+    "date":"string", 
+    "location":"string", 
+    "tin":"string", 
+    "branch":"string", 
+    "created":"mongodbdate",
+    "items":[
+        {
+            "barcode":"string",
+            "type":"fuel|lubricant",
+            "name":"string",
+            "price":"number",
+            "unit":"string", 
+            "previous_quantity":"number",
+            "addstock":"number", 
+            "sold":"number", 
+            "current_quantity":"number"
+        }
+    ],
+    "cashier":"string",
+    "cashier_employee_number":"string", 
+    "recorder":"string",
+    "recorder_employee_number":"string"
+}
