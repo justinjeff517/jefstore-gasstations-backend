@@ -1,20 +1,21 @@
 {
-    "id":"string",
-    "type":"fuel",
-    "tin":"string",
-    "location":"string", 
-    "created":"date", 
-    "date":"date", 
-    "fuel":[
-        {
-            "po_number":"8-digit-string",
-            "plate_number":"string",
-            "route":"string",
-            "driver":"string",
-            "product":"string",
-            "quantity":"number"
-            }
-    ],
-    "cashier_employee_number":"string",
-    "recorder_employee_number":"string"
+  "id": "string",
+  "current_form_qr_code":"string",
+  "previous_form_qr_code":"string", 
+  "tin": "string",
+  "location": "string",
+  "created": "date",
+  "date": "date",
+  "items": [
+    {
+      "receipt_number": "string",
+      "customer_name":"string", 
+      "type": "fuel|lubricant",
+      "vatable_sales": "number",
+      "vat_amount": "number",
+      "total_amount": "number"
+    }
+  ],
+  "cashier_employee_number": "string",
+  "recorder_employee_number": "string"
 }

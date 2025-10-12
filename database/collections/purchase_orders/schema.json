@@ -16,7 +16,9 @@
         "route":"string",
         "driver":"string",
         "product":"string",
-        "quantity":"number"
+        "price":"number",
+        "quantity":"number",
+        "amount":"number"
     }
     ],
     "cashier_employee_number":"string",
