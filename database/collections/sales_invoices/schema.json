@@ -17,5 +17,8 @@
     }
   ],
   "cashier_employee_number": "string",
-  "recorder_employee_number": "string"
+  "cashier":"string", 
+  "recorder_employee_number": "string",
+  "recorder":"string",
+  "is_empty":"boolean"
 }
