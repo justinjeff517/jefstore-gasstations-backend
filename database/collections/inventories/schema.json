@@ -9,6 +9,9 @@
     "created":"mongodbdate",
     "items":[
         {
+            "id":"uuidv4",
+            "updated":"date",
+            "created":"date", 
             "barcode":"string",
             "type":"fuel|lubricant",
             "name":"string",
@@ -23,5 +26,6 @@
     "cashier":"string",
     "cashier_employee_number":"string", 
     "recorder":"string",
-    "recorder_employee_number":"string"
+    "recorder_employee_number":"string",
+    "is_empty":"boolean"
 }

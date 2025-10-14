@@ -100,5 +100,7 @@
   "cashier": "Liam Santos",
   "cashier_employee_number": "50321",
   "recorder": "Ella Reyes",
-  "recorder_employee_number": "50325"
+  "recorder_employee_number": "50325",
+  "is_empty": false
 }
+ 
