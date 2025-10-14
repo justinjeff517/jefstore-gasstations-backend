@@ -150,7 +150,37 @@ packages:
     parameters: {}
     annotations: {}
     functions:
+      - name: delete-item-of-empty-form 
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
       - name: get-latest-empty-form
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+      - name: get-latest-filled-form 
+        binary: false
+        main: ""
+        runtime: python:3.11
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+      - name: post-item-to-empty-form
         binary: false
         main: ""
         runtime: python:3.11
@@ -170,7 +200,6 @@ packages:
         environment: {}
         annotations: {}
         limits: {}
-
 
   - name: test
     shared: false

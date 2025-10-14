@@ -8,6 +8,10 @@
   "date": "date",
   "items": [
     {
+      "item_number":"string", 
+      "id":"uuidv4",
+      "updated":"date",
+      "created":"date", 
       "receipt_number": "string",
       "customer_name":"string", 
       "type": "fuel|lubricant",

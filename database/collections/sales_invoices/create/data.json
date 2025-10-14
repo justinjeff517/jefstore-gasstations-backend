@@ -4,34 +4,50 @@
   "previous_form_qr_code": "20251011",
   "tin": "123-456-789",
   "location": "JEF Gas Station – Sikatuna Branch",
-  "created": "2025-10-12T12:45:00Z",
-  "date": "2025-10-12",
+  "created": { "$date": "2025-10-12T12:45:00Z" },
+  "date": { "$date": "2025-10-12T00:00:00Z" },
   "items": [
     {
+      "item_number": "1",
+      "id": "6b0e5a0d-9a1a-4c3e-8de8-2c6b6d6e9a11",
+      "updated": { "$date": "2025-10-12T12:45:00Z" },
+      "created": { "$date": "2025-10-12T12:45:00Z" },
       "receipt_number": "20251012-00012345",
       "customer_name": "Juan Dela Cruz",
       "type": "fuel",
-      "vatable_sales": 2456.70,
-      "vat_amount": 293.80,
-      "total_amount": 2750.50
+      "vatable_sales": 2456.7,
+      "vat_amount": 293.8,
+      "total_amount": 2750.5
     },
     {
+      "item_number": "2",
+      "id": "9f7c3a22-dc7c-4b1e-8f2a-6b3d1b2e7c44",
+      "updated": { "$date": "2025-10-12T12:45:00Z" },
+      "created": { "$date": "2025-10-12T12:45:00Z" },
       "receipt_number": "20251012-00012346",
       "customer_name": "ACME Logistics Inc.",
       "type": "lubricant",
-      "vatable_sales": 875.00,
-      "vat_amount": 105.00,
-      "total_amount": 980.00
+      "vatable_sales": 875.0,
+      "vat_amount": 105.0,
+      "total_amount": 980.0
     },
     {
+      "item_number": "3",
+      "id": "3c5b1b6e-7a4f-4f0e-9f61-1c2b9f7a4d22",
+      "updated": { "$date": "2025-10-12T12:45:00Z" },
+      "created": { "$date": "2025-10-12T12:45:00Z" },
       "receipt_number": "20251012-00012347",
       "customer_name": "Maria Santos",
       "type": "fuel",
       "vatable_sales": 1339.29,
       "vat_amount": 160.71,
-      "total_amount": 1500.00
+      "total_amount": 1500.0
     },
     {
+      "item_number": "4",
+      "id": "e1a2b3c4-d5e6-4789-9abc-1234567890ab",
+      "updated": { "$date": "2025-10-12T12:45:00Z" },
+      "created": { "$date": "2025-10-12T12:45:00Z" },
       "receipt_number": "20251012-00012348",
       "customer_name": "Walk-in",
       "type": "fuel",
@@ -40,22 +56,33 @@
       "total_amount": 1250.75
     },
     {
+      "item_number": "5",
+      "id": "a7b8c9d0-1e2f-4a3b-9c8d-7e6f5a4b3c2d",
+      "updated": { "$date": "2025-10-12T12:45:00Z" },
+      "created": { "$date": "2025-10-12T12:45:00Z" },
       "receipt_number": "20251012-00012349",
       "customer_name": "Bohol Auto Care",
       "type": "lubricant",
-      "vatable_sales": 312.50,
-      "vat_amount": 37.50,
-      "total_amount": 350.00
+      "vatable_sales": 312.5,
+      "vat_amount": 37.5,
+      "total_amount": 350.0
     },
     {
+      "item_number": "6",
+      "id": "0f1e2d3c-4b5a-6c7d-8e9f-a1b2c3d4e5f6",
+      "updated": { "$date": "2025-10-12T12:45:00Z" },
+      "created": { "$date": "2025-10-12T12:45:00Z" },
       "receipt_number": "20251012-00012350",
       "customer_name": "Roadrunner Transport",
       "type": "lubricant",
       "vatable_sales": 1607.14,
       "vat_amount": 192.86,
-      "total_amount": 1800.00
+      "total_amount": 1800.0
     }
   ],
   "cashier_employee_number": "50321",
-  "recorder_employee_number": "50325"
+  "cashier": "John Doe",
+  "recorder_employee_number": "50325",
+  "recorder": "Maximus Bom",
+  "is_empty": false
 }
