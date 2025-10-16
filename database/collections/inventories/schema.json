@@ -1,12 +1,15 @@
 {
     "id":"string",
-    "previous_form_qr_code":"string", 
+    "previous_form_qr_code":"string",
+    "generated_by":"string",
+    "generator_employee_number":"string",  
     "current_form_qr_code":"string", 
     "date":"string", 
     "location":"string", 
     "tin":"string", 
     "branch":"string", 
     "created":"mongodbdate",
+    
     "items":[
         {
             "item_number":"string", 

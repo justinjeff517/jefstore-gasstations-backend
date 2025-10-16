@@ -1,6 +1,8 @@
 {
   "id": "string",
   "current_form_qr_code":"string",
+  "generated_by":"string",
+  "generator_employee_number":"string", 
   "previous_form_qr_code":"string", 
   "tin": "string",
   "location": "string",
