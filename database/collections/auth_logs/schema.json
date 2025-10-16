@@ -1,7 +1,0 @@
-{
-    "id":"string",
-    "timestamp":"string",
-    "user_id":"string",
-    "username":"string",
-    "is_granted":"boolean"
-}

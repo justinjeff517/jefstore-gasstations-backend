@@ -1,6 +1,0 @@
-{
-    "id":"string",
-    "account_number":"int",
-    "username":"string",
-    "password":"string"
-}
