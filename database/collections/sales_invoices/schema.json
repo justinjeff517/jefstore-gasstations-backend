@@ -22,9 +22,11 @@
       "total_amount": "number"
     }
   ],
-  "cashier_employee_number": "string",
-  "cashier":"string", 
-  "recorder_employee_number": "string",
-  "recorder":"string",
+  "employees":{
+    "role":"string",
+    "employee_number":"string",
+    "name":"string"
+  }, 
+
   "is_empty":"boolean"
 }
